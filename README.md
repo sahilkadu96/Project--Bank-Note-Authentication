@@ -1,2 +1,1 @@
-# Project--Bank-Note-Authentication
-using Logistic Regression. Deploying on STreamlit
+#using Logistic Regression. Deploying on STreamlit. Using FastAPI
