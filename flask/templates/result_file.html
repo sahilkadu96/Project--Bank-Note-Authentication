@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<h1> The predictions are</h1>
+<div>
+    <table class="table table-striped-columns">
+        <tr class="table-primary">
+            <th>Prediction</th>
+            <th>Label</th>
+        </tr>
+        {% for i in pred %}
+            <tr class="table-light">
+                <td> {{i}} </td>
+                <td> {% if i > 0.5 %} Real {% else %} Fake  {% endif %} </td>   
+            </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Bank note features</h1>
+<div class="container">
+    <form method="POST">
+        {{form.hidden_tag()}}
+        {{form.variance.label}}{{form.variance}}
+        <br>
+        {{form.skewness.label}}{{form.skewness}}
+        <br>
+        {{form.curtosis.label}}{{form.curtosis}}
+        <br>
+        {{form.entropy.label}}{{form.entropy}}
+        <br>
+        {{form.submit()}}
+    </form>
+</div>
+{% endblock %}
