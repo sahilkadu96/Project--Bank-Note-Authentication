@@ -1,4 +1,4 @@
-Downloaded dataset from:
+Downloaded dataset from: https://www.kaggle.com/datasets/ritesaluja/bank-note-authentication-uci-data .
 Created Logistic Regression model.
 Deployed on streamlit, Flask & FastAPI.
 
